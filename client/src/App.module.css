@@ -1,0 +1,62 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin : 2vh 0;
+}
+
+.main {
+  width : 100%;
+  padding: 3rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 2vh 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form__container {
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width : 50%;
+  font-size : 16px;
+}
+
+.textarea {
+  width : 100%;
+  border : 1px solid #adacac;
+  margin : 2vh 0;
+  font-size : 18px;
+}
+
+.input {
+  width : 100%;
+  margin : 2vh 0;
+  height : 32px;
+  border : 1px solid #adacac;
+  font-size : 18px;
+}
+
+.input:focus,
+.input:hover,
+.input:active,
+.textarea:focus,
+.textarea:hover,
+.textarea:active {
+  border : 1px solid #1b82b1;
+}
